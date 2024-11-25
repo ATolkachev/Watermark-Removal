@@ -64,6 +64,6 @@ def preprocess_images(image_path, mask_path, max_dim):
 
     print('Visualizing mask overlap...')
 
-    visualize_sample(image_np, mask_np, image_np * mask_np, nrow = 3, size_factor = 10)
+    # visualize_sample(image_np, mask_np, image_np * mask_np, nrow = 3, size_factor = 10)
 
     return image_np, mask_np
